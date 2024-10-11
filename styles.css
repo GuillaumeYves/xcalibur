@@ -1,0 +1,64 @@
+body {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.header {
+    padding: 10em;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.socials:hover {
+    color: red;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: red;
+}
+
+.item-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item-card1, .item-card2, .item-card3 {
+    transition: 0.3s ease-in-out;
+}
+
+.item-card1:hover {
+    transform: scale(1.05);
+    box-shadow: -4px 2px 2px rgba(255, 0, 0, 0.50)
+}
+
+.item-card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.50);
+}
+
+.item-card3:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 2px 2px rgba(255, 0, 0, 0.50);
+}
+
+.item-card-title {
+    font-weight: 800;
+}
+
+.about-us-img {
+    box-shadow: 4px 2px 2px rgba(255, 0, 0, 0.50)
+}
+
+.commitments-img {
+    box-shadow: -4px 2px 2px rgba(255, 0, 0, 0.50);
+}
+
+.rounded-circle {
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.50);
+}
